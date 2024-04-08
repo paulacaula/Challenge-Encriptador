@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-419">
+
+<head>
+    <title>Challenge Allura</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="fondo.jpeg" id="banner">
+        <div class="header-content">
+            <img id="logo" src="Logo.png">
+            <h1 class="titulo">Encriptador de texto</h1>
+        </div>
+    </header>
+
+    <main>
+        <p class="parrafo">Ingrese un texto solo minúsculas y sin acentos</p>
+
+        <section class="areasdetexto">
+            <textarea class="entrada" placeholder="escriba aqui..." rows="10" cols="60"></textarea>
+            <div>
+                <button class="btn-enc" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-des" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <br>
+
+        <section class="areasdetexto">
+            <textarea class="salida" id="salida" cols="60" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="copiarContenido()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer">Paula Caula - Abril 2024</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

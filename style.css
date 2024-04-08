@@ -1,0 +1,59 @@
+html{
+    background: pink;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative; /* Establece posición relativa para poder posicionar la imagen de fondo */
+}
+
+.parrafo{
+    padding: 10px;
+
+}
+#banner {
+    width: 100%;
+    height: 150px;
+}
+
+.header-content {
+    position: absolute; /* Posiciona absolutamente el contenido dentro del encabezado */
+    top: 50%; /* Alinea verticalmente al centro del encabezado */
+    left: 50%; /* Alinea horizontalmente al centro del encabezado */
+    transform: translate(-50%, -50%); /* Centra exactamente el contenido */
+    text-align: center; /* Alinea el texto al centro */
+    color: #fff;
+}
+
+#logo {
+    width: 100px; /* Ancho deseado para el logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: inline-block; /* Permite alinear horizontalmente */
+    vertical-align: middle; /* Alinea verticalmente al centro */
+    margin-right: 10px; /* Espacio derecho entre el logo y el título */
+}
+
+.titulo {
+    display: inline-block; /* Permite alinear horizontalmente */
+    vertical-align: middle; /* Alinea verticalmente al centro */
+    margin: 0; /* Elimina el margen por defecto */
+    font-size: 24px; /* Tamaño de fuente del título */
+}
+
+main {
+    padding: 20px;
+    text-align: center; 
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 10px 0; /* Espaciado interno del pie de página */
+}
+
